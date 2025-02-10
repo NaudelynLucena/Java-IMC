@@ -24,6 +24,9 @@ public class IMCCalculadora {
             else if (imc < 17) {
                 return "Delgadez moderada";
             }
+            else if (imc < 18.5) {
+                return "Delgadez leve";
+            }
             return "Clasificación no implementada";
         }
 }
