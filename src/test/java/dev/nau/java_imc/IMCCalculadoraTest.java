@@ -1,4 +1,5 @@
 package dev.nau.java_imc;
+
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -12,8 +13,8 @@ public class IMCCalculadoraTest {
 
     @Test
     public void testObtenerClasificacionPesoNormal() {
-    IMCCalculadora calculadora = new IMCCalculadora(70.0, 1.75);
-    assertEquals("Peso normal", calculadora.obtenerClasificacion());
+        IMCCalculadora calculadora = new IMCCalculadora(70.0, 1.75);
+        assertEquals("Peso normal", calculadora.obtenerClasificacion());
     }
 
     @Test

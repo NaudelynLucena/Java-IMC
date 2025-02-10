@@ -14,3 +14,11 @@ Luego, a partir del IMC obtenido se pueden calcular si una persona tiene un peso
 | [16-17)  | Delgadez moderada |[30-35)| Obesidad leve  |
 | [17-18.5)  | Delgadez leve |[35-40| Obesidad moderada  |
 | [18.5-25)  | Peso normal |>=40| Obesidad mórbida  |
+
+## Diagrama UML
+
+[IMC](https://github.com/NaudelynLucena/Java-IMC/blob/main/DiagramaIMC.png)
+
+## TDD
+
+[Testing](https://github.com/NaudelynLucena/Java-IMC/blob/main/TDD.%20Test%20coverage%20100%25.png)
