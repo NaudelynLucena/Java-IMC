@@ -10,4 +10,9 @@ public class IMCCalculadoraTest {
         assertEquals(22.86, calculadora.calcularIMC(), 0.01);
     }
 
+    @Test
+    public void testObtenerClasificacionPesoNormal() {
+    IMCCalculadora calculadora = new IMCCalculadora(70.0, 1.75);
+    assertEquals("Peso normal", calculadora.obtenerClasificacion());
+    }
 }
