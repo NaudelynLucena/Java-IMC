@@ -12,4 +12,12 @@ public class IMCCalculadora {
         public double calcularIMC() {
             return peso / (estatura * estatura);
         }
+
+        public String obtenerClasificacion() {
+            double imc = calcularIMC();
+            if (imc >= 18.5 && imc < 25) {
+                return "Peso normal";
+            }
+            return "Clasificación no implementada";
+        }
 }
