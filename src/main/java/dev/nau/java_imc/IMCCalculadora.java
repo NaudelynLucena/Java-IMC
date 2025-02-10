@@ -27,6 +27,9 @@ public class IMCCalculadora {
             else if (imc < 18.5) {
                 return "Delgadez leve";
             }
+            else if (imc < 30) {
+                return "Sobrepeso";
+            }
             return "Clasificación no implementada";
         }
 }
