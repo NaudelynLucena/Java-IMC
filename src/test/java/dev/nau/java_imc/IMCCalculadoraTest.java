@@ -15,4 +15,11 @@ public class IMCCalculadoraTest {
     IMCCalculadora calculadora = new IMCCalculadora(70.0, 1.75);
     assertEquals("Peso normal", calculadora.obtenerClasificacion());
     }
+
+    @Test
+    public void testObtenerClasificacionDelgadezSevera() {
+        IMCCalculadora calculadora = new IMCCalculadora(40.0, 1.75);
+        assertEquals("Delgadez severa", calculadora.obtenerClasificacion());
+    }
+
 }
