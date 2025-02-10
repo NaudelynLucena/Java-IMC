@@ -22,4 +22,10 @@ public class IMCCalculadoraTest {
         assertEquals("Delgadez severa", calculadora.obtenerClasificacion());
     }
 
+    @Test
+    public void testObtenerClasificacionDelgadezModerada() {
+        IMCCalculadora calculadora = new IMCCalculadora(50.0, 1.75);
+        assertEquals("Delgadez moderada", calculadora.obtenerClasificacion());
+    }
+
 }
