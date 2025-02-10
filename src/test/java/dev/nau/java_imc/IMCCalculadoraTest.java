@@ -45,4 +45,10 @@ public class IMCCalculadoraTest {
         IMCCalculadora calculadora = new IMCCalculadora(95.0, 1.75);
         assertEquals("Obesidad leve", calculadora.obtenerClasificacion());
     }
+
+    @Test
+    public void testObtenerClasificacionObesidadModerada() {
+        IMCCalculadora calculadora = new IMCCalculadora(110.0, 1.75);
+        assertEquals("Obesidad moderada", calculadora.obtenerClasificacion());
+    }
 }
