@@ -30,6 +30,9 @@ public class IMCCalculadora {
             else if (imc < 30) {
                 return "Sobrepeso";
             }
+            else if (imc < 35) {
+                return "Obesidad leve";
+            }
             return "Clasificación no implementada";
         }
 }
