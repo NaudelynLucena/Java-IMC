@@ -33,4 +33,10 @@ public class IMCCalculadoraTest {
         IMCCalculadora calculadora = new IMCCalculadora(55.0, 1.75);
         assertEquals("Delgadez leve", calculadora.obtenerClasificacion());
     }
+
+    @Test
+    public void testObtenerClasificacionSobrepeso() {
+        IMCCalculadora calculadora = new IMCCalculadora(85.0, 1.75);
+        assertEquals("Sobrepeso", calculadora.obtenerClasificacion());
+    }
 }
