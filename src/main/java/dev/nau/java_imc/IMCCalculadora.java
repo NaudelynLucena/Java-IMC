@@ -18,6 +18,9 @@ public class IMCCalculadora {
             if (imc >= 18.5 && imc < 25) {
                 return "Peso normal";
             }
+            if (imc < 16) {
+                return "Delgadez severa";
+            }
             return "Clasificación no implementada";
         }
 }
