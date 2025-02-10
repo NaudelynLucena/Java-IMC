@@ -36,6 +36,8 @@ public class IMCCalculadora {
             else if (imc < 40) {
                 return "Obesidad moderada";
             }
-            return "Clasificación no implementada";
+            else {
+                return "Obesidad mórbida";
+            }
         }
-}
+    }
